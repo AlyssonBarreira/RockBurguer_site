@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('banner\ home.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.reservas{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #cfa66f;
+    border-radius: 5px;
+    border: #cfa66f;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.text-banner{
+    margin: 10% 25%;
+}
+.text-banner h5{
+    color:#cfa66f;
+    font-size: 12px;
+}
+.text-banner h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 55px;
+}
+#logo{
+    cursor: pointer;
+}
+
+/* ------------------Sobre------------------------- */
+
+.sobre{
+    background-color: #cfa56f31;
+    height: 500px;
+}
+.about{
+    display: flex;
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 88%;
+    margin: 0px 20%;
+}
+.left-col{
+   box-sizing: border-box;
+   max-width: 50%;
+   background-color: #fff;
+   padding: 40px;
+}
+.left-col h1{
+    margin: 15px 0;
+    font-family: 'Taviraj', serif;
+}
+.left-col h5{
+    font-family: 'Oswald', sans-serif;
+    color: #cfa66f;
+}
+.left-col p{
+    line-height: 30px;
+    font-size: 14px;
+    opacity: 54%;
+}
+.right-col img{
+    max-width: 100%;
+    height: 100%;
+}
+.saiba-mais{
+    width: 120px;
+    height: 40px;
+    color: #cfa66f;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #cfa66f;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+/* ------------------Serviços------------------------- */
+
+.service{
+    background-color: #321d12;
+    height: 100vh;
+}
+.divisor{
+    width: 100%;
+    margin-left: 0;
+    height: 100px; 
+    margin-top: -100px;
+}
+.service .container .title{
+    padding: 30px 15px;
+    margin: 0 160px;
+}
+.service .container h5{
+    font-family: 'Oswald', sans-serif;
+    color: #cfa66f;
+}
+.service .container h1{
+    font-family: 'Taviraj', serif;
+    color: #fff;
+}
+.servicos{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+}
+.box{
+    padding: 20px; 
+    height: 280px;  
+    position: relative; 
+}
+.box h1{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.box p{
+    color: #fff;
+    opacity: 54%;
+}
+.box:hover{
+    padding: 20px; 
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('eventos.jpg');  
+    background-position: center;
+    background-size: cover;
+}
+
+/* ------------------Cardápio------------------------- */
+
+.cardapio{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+.menu{
+    max-width: 400px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 25%;
+    top: 240px;
+    box-shadow: 5px 5px 5px #aaaaaa69;
+}
+.titulo{
+    position: absolute;
+    width: 300px;
+    right: 350px;
+    top: 90px;
+}
+.titulo h5{
+    font-family: 'Oswald', sans-serif;
+    color: #cfa66f;
+    margin-bottom: 10px;
+}
+.titulo h1{
+    font-family: 'Taviraj', serif;
+    line-height: 40px;
+}
+.opcoes div{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 14%;
+    margin-top: 7px;
+}
+.opcoes h1{
+    font-size: 14px;
+    display: inline-block;
+}
+.value{
+    float: right;
+}
+
+.opcoes p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.opcoes:hover{
+    background-color: #ebdcc5;
+}
+.foto{
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 25%;
+    background-image: url('hamburger.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.left-col-foto{
+    float: left;
+    margin-top: 440px;
+    margin-left: 10px;
+}
+.left-col-foto h1{
+   font-size: 24px;
+   font-family: 'Oswald', sans-serif;
+   color: #fff;
+}
+.left-col-foto p{
+    font-size: 10px;
+    color: #fff;
+    opacity: 60%;
+    margin-left: 30px;
+ }
+ .right-col-foto button{
+     margin-top: 448px;
+     margin-left: 20px;
+ }
+ 
+/* ------------------Instagram------------------------- */
+
+.instagram{
+    background-image: url('bg_hamburguer.PNG');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.rockburguer{
+    top: 100px;
+    left: 300px;
+    position: absolute;
+}
+.rockburguer img{
+    width: 200px;
+} 
+.rockburguer p{
+    max-width: 250px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 10px;
+    opacity: 30%;
+}
+.rockburguer button{
+    margin-top: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    position: absolute;
+    right: 280px;
+    top: 60px;
+    width: 500px;
+    height: 400px;
+    column-gap: 5px;
+  }
+  .grid-item img{
+      width: 250px;
+      height: 250px;
+  }
+
+/* ------------------Footer------------------------- */
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #1b1b19;
+}
+#logo2{
+    width: 150px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 40px;
+}
+footer .container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+footer .container ul li{
+    margin-right: 30px;
+}
+footer .container ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Oswald';
+   font-size: 10px;
+   cursor: pointer;
+}
+footer .container p{
+    font-family: 'Oswald', sans-serif;
+    color: #cfa66f;
+    font-size: 8px;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+.sociais{
+    margin-left: 46%;
+    margin-top: 15px;
+}
+.sociais img{
+    margin-right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
